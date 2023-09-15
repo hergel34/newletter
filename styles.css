@@ -56,8 +56,10 @@ body {
     margin-bottom: 1.5rem;
 }
 .left-info ul li {
+    list-style: none;
     list-style-image: url(assets/images/icon-list.svg);
     list-style-position: inside;
+    background-repeat: no-repeat;
 }
 
 .left-info ul li::before {
@@ -188,6 +190,7 @@ body {
 
     .left {
         padding: 1rem 2rem;
+        grid-row: 2;
     }
 
     .left-info ul li {
@@ -196,6 +199,7 @@ body {
 
     .right img {
         width: 100%;
+        
     }
 
     .confirmed-message.active {
